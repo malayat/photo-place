@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pref_gen">General</string>
+    <string name="pref_twitter">Twitter</string>
+
+    <string name="pref_notify_title">Notificar</string>
+    <string name="pref_notify_title_summary">Notificar si estamos cerca de un lugar</string>
+    <string name="pref_tracking_title">Seguimiento de ubicación</string>
+    <string name="pref_tracking_summary">Su posición se actualizará en tiempo real</string>
+
+    <string name="pref_mapstyle_title">Estilo del mapa</string>
+    <string name="pref_mapstyle_summary">Puedes cambiar el estilo del mapa</string>
+
+    <string name="pref_type_of_map">Cambiar el tipo de mapa</string>
+    <string-array name="pref_map_types_list_entries">
+        <item>Normal</item>
+        <item>Satélite</item>
+        <item>Híbrido</item>
+        <item>Terreno</item>
+    </string-array>
+    <string-array name="pref_map_types_list_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string name="pref_type_of_map_summary">Configura el estilo del mapa</string>
+
+    <string name="pref_user_title">Usuario</string>
+    <string name="pref_user_summary">Tu nombre de usuario en Twitter</string>
+    <string name="pref_pass_title">Contraseña</string>
+    <string name="pref_pass_summary">Tu Contraseña de Twitter</string>
+
+
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pref_gen">General</string>
+    <string name="pref_twitter">Twitter</string>
+
+    <string name="pref_notify_title">Notify</string>
+    <string name="pref_notify_title_summary">Notify whether we are near a myPlace</string>
+    <string name="pref_tracking_title">Location tracking</string>
+    <string name="pref_tracking_summary">Your position will be updated in real-time</string>
+
+    <string name="pref_mapstyle_title">Map style</string>
+    <string name="pref_mapstyle_summary">You can change the map style</string>
+
+    <string name="pref_type_of_map">Change type of map</string>
+    <string-array name="pref_map_types_list_entries">
+        <item>Normal</item>
+        <item>Satellite</item>
+        <item>Hybrid</item>
+        <item>Terrain</item>
+    </string-array>
+    <string-array name="pref_map_types_list_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string name="pref_type_of_map_summary">Sets style map</string>
+
+    <string name="pref_user_title">User</string>
+    <string name="pref_user_summary">Your username on Twitter</string>
+    <string name="pref_pass_title">Password</string>
+    <string name="pref_pass_summary">Your Twitter Password</string>
+
+
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PhotoPlace</string>
+    <string name="login_cancel_error">Inicio de sesión cancelado</string>
+    <string name="login_error">Error al iniciar sesión %s</string>
+
+    <string name="main_title_list">Mis lugares</string>
+    <string name="main_title_map">Mapa</string>
+    <string name="main_message_action_cancel">Cancelar</string>
+    <string name="main_message_picture_source">Selecciona una foto</string>
+    <string name="main_message_gps_status">Su GPS al parecer está deshabilitado. ¿Quiere activarlo?</string>
+    <string name="main_message_dialog_yes">Si</string>
+    <string name="main_message_dialog_no">No</string>
+    <string name="main_message_location_updating">Actualizando ubicación...</string>
+    <string name="main_message_location_updated">Ubicación actulizada</string>
+    <string name="main_message_save_complete">Lugar guardado exitosamente</string>
+    <string name="main_error_location_not_available">Imposible encontrar ubicación</string>
+    <string name="main_error_gps_not_available">PhotoPlace funciona con el GPS habilitado</string>
+    <string name="main_error_save_location_not_available">No se pudo guardar la foto. Imposible encontrar ubicación</string>
+    <string name="main_error_storage_permission">Sin los permisos necesarios no se puede obtener acceso a sus fotos</string>
+    <string name="main_error_location_permission">Sin los permisos necesarios no se puede obtener su ubicación</string>
+    <string name="main_error_dispatch_camera">Error al crear archivo</string>
+    <string name="main_error_location_address">No se pudo obtener dirección</string>
+    <string name="main_error_save">Error al guardar el Lugar. Inténtelo nuevamente</string>
+
+    <string name="repository_message_edit">¡Por favor! Edítame</string>
+    <string name="repository_message_city">Ciudad</string>
+    <string name="repository_message_postalcode">Código Postal</string>
+
+    <string name="menu_action_logout">Cerrar Sesión</string>
+    <string name="photolist_message_share">Compartir</string>
+
+
+
+    <string name="title_activity_settings">Configuraciones</string>
+    <string name="content_description_place_image">Imagen del lugar</string>
+    <string name="content_description_share">Compartir</string>
+    <string name="content_description_delete">Eliminar</string>
+    <string name="content_description_share_maps">Abrir con la aplicación de mapas</string>
+
+</resources>

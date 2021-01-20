@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:key="pref_gen"
+        android:title="@string/pref_gen">
+        <CheckBoxPreference
+            android:key="notifications"
+            android:title="@string/pref_notify_title"
+            android:summary="@string/pref_notify_title_summary"
+            android:defaultValue="false"/>
+        <CheckBoxPreference
+            android:key="tracking"
+            android:title="@string/pref_tracking_title"
+            android:summary="@string/pref_tracking_summary"
+            android:defaultValue="false"/>
+        <ListPreference
+            android:key="typesMaps"
+            android:title="@string/pref_mapstyle_title"
+            android:summary="@string/pref_mapstyle_summary"
+            android:entries="@array/pref_map_types_list_entries"
+            android:entryValues="@array/pref_map_types_list_values"
+            android:defaultValue="1" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="pref_twitter"
+        android:title="@string/pref_twitter">
+        <!-- Usuario de Twitter -->
+        <EditTextPreference
+            android:key="usuario_twitter"
+            android:title="@string/pref_user_title"
+            android:summary="@string/pref_user_summary"
+            android:selectAllOnFocus="true"
+            android:singleLine="true" />
+
+        <!-- Password de Twitter -->
+        <EditTextPreference
+            android:key="contraseña_twitter"
+            android:title="@string/pref_pass_title"
+            android:summary="@string/pref_pass_summary"
+            android:selectAllOnFocus="true"
+            android:inputType="textWebPassword"
+            android:singleLine="true" />
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
